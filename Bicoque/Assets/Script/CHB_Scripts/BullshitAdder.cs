@@ -16,8 +16,10 @@ public class BullshitAdder : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             inventory.AddIron(2);
-            inventory.AddPlanks(2);
-            inventory.AddBricks(2);
+            inventory.AddWolfTrap(3);
+            inventory.AddSandbag(2);
+
+            inventory.UpdateCounters();
         }
     }
 }

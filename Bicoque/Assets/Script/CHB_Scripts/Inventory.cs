@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Inventory : MonoBehaviour
 {
     //Materials
-    private int mt_wood;
-    private int mt_stone;
-    private int mt_iron;
+    public int mt_wood;
+    public int mt_stone;
+    public int mt_iron;
 
     [SerializeField]
     private GameObject woodCount;
@@ -22,9 +22,9 @@ public class Inventory : MonoBehaviour
     private Text stoneText;
 
     //Traps
-    private int tr_wolftrap;
-    private int tr_barricade;
-    private int tr_sandbag;
+    public int tr_wolftrap;
+    public int tr_barricade;
+    public int tr_sandbag;
 
     [SerializeField]
     private GameObject wolftrapCount;
